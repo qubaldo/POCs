@@ -1,0 +1,3 @@
+com\springboot\hibernate\controller\TutorialController.class
+com\springboot\hibernate\model\Tutorial.class
+com\springboot\hibernate\repository\TutorialRepo.class

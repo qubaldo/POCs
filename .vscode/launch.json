@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpringBootHibernateApplication",
+            "request": "launch",
+            "mainClass": "com.springboot.hibernate.SpringBootHibernateApplication",
+            "projectName": "spring-boot-hibernate"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<spring-boot-hibernate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.hibernate.Main",
+            "projectName": "spring-boot-hibernate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53654 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=spring-boot-hibernate"
+        }
+    ]
+}

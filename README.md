@@ -2,7 +2,7 @@
 
 ## Overview
 
-We will build a **Spring Boot + PostgreSQL + REST CRUD API** for a Tutorial application in which:
+We build a **Spring Boot + PostgreSQL + REST CRUD API** for a Tutorial application in which:
 
 - Each **Tutorial** has:
   - `id`
